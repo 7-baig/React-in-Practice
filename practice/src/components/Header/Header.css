@@ -1,0 +1,30 @@
+#main-header {
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    background-color: lightcoral;
+    height: 10vh;
+}
+#main-header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    flex-basis: auto;
+    flex-grow: 2;
+    font-size: 2.5em;
+    margin-left: 20px;
+}
+#main-header ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+#main-header ul li {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
