@@ -107,3 +107,8 @@
   background-color: cornflowerblue;
   color: azure;
 }
+.time {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+  font-size: 5em;
+}
