@@ -6,6 +6,14 @@ import CounterThree from './CounterThree'
 import CounterFour from './CounterFour'
 import UseEffect from './UseEffect'
 import HooksMouse from './HooksMouse'
+import DataFetching from './DataFetching'
+import Registration from './Forms/Registration'
+// import Store, { Context } from './Context/Store'
+import ComponentA from './Context/ComponentA'
+import ComponentB from './Context/ComponentB'
+import Header from './FetchWithContext.js/Header'
+import Main from './FetchWithContext.js/Main'
+import Store, { Context } from './FetchWithContext.js/Store'
 
 function App() {
   return (
@@ -15,7 +23,18 @@ function App() {
       {/* <CounterThree /> */}
       {/* <CounterFour /> */}
       {/* <UseEffect /> */}
-      <HooksMouse />
+      {/* <HooksMouse /> */}
+      {/* <DataFetching /> */}
+      {/* <Registration /> */}
+      {/* <Store>
+        <ComponentA />
+        <ComponentB />
+      </Store> */}
+      <Store>
+        <Header />
+        <Main />
+      </Store>
+
     </div>
   )
 }
